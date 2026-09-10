@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "component": "fqgate",
+  "channel": "stable",
+  "status": "unpublished",
+  "version": "0.1.1",
+  "publishedAt": null,
+  "minimumSupportedVersion": "0.1.0",
+  "releaseNotes": [
+    "修复通过系统托盘退出后进程仍可能残留的问题。",
+    "修复 MCP Apps 在系统代理环境下的下载与更新。",
+    "修正 FQGate 更新清单地址，恢复新版本检测。",
+    "修复短信登录滑块坐标提交，提高券商登录成功率。",
+    "完善新股申购额度、银行认证信息和担保品划转查询。"
+  ],
+  "packages": []
+}
