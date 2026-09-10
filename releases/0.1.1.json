@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "component": "fqgate",
   "channel": "stable",
-  "status": "unpublished",
+  "status": "published",
   "version": "0.1.1",
-  "publishedAt": null,
+  "publishedAt": "2026-09-10T20:49:07Z",
   "minimumSupportedVersion": "0.1.0",
   "releaseNotes": [
     "修复通过系统托盘退出后进程仍可能残留的问题。",
@@ -13,5 +13,30 @@
     "修复短信登录滑块坐标提交，提高券商登录成功率。",
     "完善新股申购额度、银行认证信息和担保品划转查询。"
   ],
-  "packages": []
+  "packages": [
+    {
+      "platform": "windows",
+      "architecture": "x86_64",
+      "installMode": "replaceExecutable",
+      "fileName": "FQGate-0.1.1-windows-x64-UNSIGNED.exe",
+      "size": 26192384,
+      "sha256": "ef4ae1051af6e4812da077016423a02ea0b79bf88a404a70a8c2eef6a1a51bf6"
+    },
+    {
+      "platform": "macos",
+      "architecture": "aarch64",
+      "installMode": "openPackage",
+      "fileName": "FQGate-0.1.1-macos-arm64-ADHOC.zip",
+      "size": 8007095,
+      "sha256": "053781e74336ac29430a0cdaa41be7ba5ee2bde949326b9a38bb140f3b0d8730"
+    },
+    {
+      "platform": "macos",
+      "architecture": "x86_64",
+      "installMode": "openPackage",
+      "fileName": "FQGate-0.1.1-macos-x86_64-ADHOC.zip",
+      "size": 8751870,
+      "sha256": "f116e5b928c37f34a0bc690ff7d7a86a82dad5e789584a9e1865295a0e1c803c"
+    }
+  ]
 }

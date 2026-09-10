@@ -3,40 +3,40 @@
   "component": "fqgate",
   "channel": "stable",
   "status": "published",
-  "version": "0.1.0",
-  "publishedAt": "2026-09-10T12:48:47Z",
+  "version": "0.1.1",
+  "publishedAt": "2026-09-10T20:49:07Z",
   "minimumSupportedVersion": "0.1.0",
   "releaseNotes": [
-    "支持在 AI 助手中查询行情和账户信息，并使用交易相关功能。",
-    "未登录同花顺账号时，普通行情可以自动使用游客模式。",
-    "可以分别管理账户查询、委托下单、资金划转及交易通知。",
-    "提供系统托盘、首次使用风险确认和桌面管理界面。",
-    "AI 对话中的交互界面可以独立更新，无需重新安装 FQGate。"
+    "修复通过系统托盘退出后进程仍可能残留的问题。",
+    "修复 MCP Apps 在系统代理环境下的下载与更新。",
+    "修正 FQGate 更新清单地址，恢复新版本检测。",
+    "修复短信登录滑块坐标提交，提高券商登录成功率。",
+    "完善新股申购额度、银行认证信息和担保品划转查询。"
   ],
   "packages": [
     {
       "platform": "windows",
       "architecture": "x86_64",
       "installMode": "replaceExecutable",
-      "fileName": "FQGate-0.1.0-windows-x64-UNSIGNED.exe",
-      "size": 26136064,
-      "sha256": "28065ba383bdef602eee4a967384ad629961e064f47542019824202a779d90d7"
+      "fileName": "FQGate-0.1.1-windows-x64-UNSIGNED.exe",
+      "size": 26192384,
+      "sha256": "ef4ae1051af6e4812da077016423a02ea0b79bf88a404a70a8c2eef6a1a51bf6"
     },
     {
       "platform": "macos",
       "architecture": "aarch64",
       "installMode": "openPackage",
-      "fileName": "FQGate-0.1.0-macos-arm64-ADHOC.zip",
-      "size": 7979848,
-      "sha256": "049b18b5ff03ceb740ba30cd19f261b5e436a24b94b33e50df33789fefd65618"
+      "fileName": "FQGate-0.1.1-macos-arm64-ADHOC.zip",
+      "size": 8007095,
+      "sha256": "053781e74336ac29430a0cdaa41be7ba5ee2bde949326b9a38bb140f3b0d8730"
     },
     {
       "platform": "macos",
       "architecture": "x86_64",
       "installMode": "openPackage",
-      "fileName": "FQGate-0.1.0-macos-x86_64-ADHOC.zip",
-      "size": 8727934,
-      "sha256": "ab83ad9a70691cf545afd1f1b149ac45e778f5fb5598bacc2de8fbdc5ba2accc"
+      "fileName": "FQGate-0.1.1-macos-x86_64-ADHOC.zip",
+      "size": 8751870,
+      "sha256": "f116e5b928c37f34a0bc690ff7d7a86a82dad5e789584a9e1865295a0e1c803c"
     }
   ]
 }
