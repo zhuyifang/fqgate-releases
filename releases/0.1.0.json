@@ -2,16 +2,41 @@
   "schemaVersion": 1,
   "component": "fqgate",
   "channel": "stable",
-  "status": "unpublished",
+  "status": "published",
   "version": "0.1.0",
-  "publishedAt": null,
+  "publishedAt": "2026-09-10T12:48:47Z",
   "minimumSupportedVersion": "0.1.0",
   "releaseNotes": [
     "支持在 AI 助手中查询行情和账户信息，并使用交易相关功能。",
     "未登录同花顺账号时，普通行情可以自动使用游客模式。",
-    "可以分别开启或关闭账户查询、委托下单、资金划转、委托受理通知和成交通知。",
+    "可以分别管理账户查询、委托下单、资金划转及交易通知。",
     "提供系统托盘、首次使用风险确认和桌面管理界面。",
     "AI 对话中的交互界面可以独立更新，无需重新安装 FQGate。"
   ],
-  "packages": []
+  "packages": [
+    {
+      "platform": "windows",
+      "architecture": "x86_64",
+      "installMode": "replaceExecutable",
+      "fileName": "FQGate-0.1.0-windows-x64-UNSIGNED.exe",
+      "size": 26136064,
+      "sha256": "28065ba383bdef602eee4a967384ad629961e064f47542019824202a779d90d7"
+    },
+    {
+      "platform": "macos",
+      "architecture": "aarch64",
+      "installMode": "openPackage",
+      "fileName": "FQGate-0.1.0-macos-arm64-ADHOC.zip",
+      "size": 7979848,
+      "sha256": "049b18b5ff03ceb740ba30cd19f261b5e436a24b94b33e50df33789fefd65618"
+    },
+    {
+      "platform": "macos",
+      "architecture": "x86_64",
+      "installMode": "openPackage",
+      "fileName": "FQGate-0.1.0-macos-x86_64-ADHOC.zip",
+      "size": 8727934,
+      "sha256": "ab83ad9a70691cf545afd1f1b149ac45e778f5fb5598bacc2de8fbdc5ba2accc"
+    }
+  ]
 }
